@@ -1,0 +1,18 @@
+{
+  "name": "vsts-libman",
+  "version": "0.1.0",
+  "description": "hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vsts-task-lib": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.2",
+    "@types/q": "^1.5.1"
+  }
+}

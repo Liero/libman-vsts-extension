@@ -1,0 +1,52 @@
+{
+    "manifestVersion": 1,
+    "id": "Libman",
+    "version": "0.1.6",
+    "name": "Libman",
+    "description": "Build task for libman - Client side scripts package manager for ASP.NET Core.",
+    "publisher": "Liero",
+    "public": true,
+    "categories": ["Pipelines"],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "icon.png"
+        
+    },
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
+    "contributions": [
+        {
+            "id": "libmantask",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "libmantask"
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "libmantask"
+        },
+        {
+            "path": "node_modules"
+        }
+    ],
+    "tags": [
+        "libman",
+        "package",
+        "manager",
+        "asp.net",
+        "javascript",
+        "library"
+    ]
+}
