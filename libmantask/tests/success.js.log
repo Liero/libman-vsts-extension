@@ -1,0 +1,22 @@
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_libmanjson
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+libman vs task
+##vso[task.debug]libmanjson=C:\Projects\Liero\vsts-libman\libmantask\tests\testcsproj\libman.json
+##vso[task.debug]check path : C:\Projects\Liero\vsts-libman\libmantask\tests\testcsproj\libman.json
+##vso[task.debug]looking up mock answers for "checkPath", key '"C:\\Projects\\Liero\\vsts-libman\\libmantask\\tests\\testcsproj\\libman.json"'
+Must initialize
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]Must initialize
+##vso[task.complete result=Failed;]Must initialize
+
+STDERR: (node:35476) Warning: Use Cipheriv for counter mode of aes-256-ctr
+(node:35476) Warning: Use Cipheriv for counter mode of aes-256-ctr
+

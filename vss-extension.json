@@ -3,7 +3,7 @@
     "id": "Libman",
     "version": "0.1.6",
     "name": "Libman",
-    "description": "Build task for libman - Client side scripts package manager for ASP.NET Core.",
+    "description": "Build task for libman - Client side scripts package manager for (not only) ASP.NET Core.",
     "publisher": "Liero",
     "public": true,
     "categories": ["Pipelines"],
@@ -36,9 +36,6 @@
     "files": [
         {
             "path": "libmantask"
-        },
-        {
-            "path": "node_modules"
         }
     ],
     "tags": [

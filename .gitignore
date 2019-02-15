@@ -1,3 +1,7 @@
 libmantask/node_modules
-libmantask/*.js
+libmantask/**/*.js
+libmantask/**/*.js.map
 /*.vsix
+libmantask/tests/testcsproj/obj
+libmantask/tests/testcsproj/bin
+libmantask/tests/testcsproj/lib

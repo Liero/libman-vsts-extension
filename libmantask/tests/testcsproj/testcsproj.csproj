@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.Web.LibraryManager.CLI" Version="1.0.172" />
+  </ItemGroup>
+
+</Project>

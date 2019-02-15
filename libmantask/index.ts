@@ -1,6 +1,6 @@
 import * as path from "path";
-import tl = require('vsts-task-lib/task');
-import trm = require('vsts-task-lib/toolrunner');
+import tl = require('azure-pipelines-task-lib/task');
+import trm = require('azure-pipelines-task-lib/toolrunner');
 import os = require('os');
 
 /**
@@ -10,6 +10,7 @@ import os = require('os');
  */
 async function run() {
     try {
+        console.log('libman vs task');
         //console.log(process.env);
         //inputs:
         const libmanJson = tl.getPathInput('libmanjson', true, true);
@@ -30,6 +31,7 @@ async function run() {
             .exec();
     }
     catch (err) {
+        console.log(err.message);
         tl.setResult(tl.TaskResult.Failed, err.message);
     }
 }
